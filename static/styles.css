@@ -1,0 +1,46 @@
+/* Styles for the LED control page */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    padding-top: 50px;
+}
+
+h1 {
+    color: #333;
+}
+
+button {
+    background-color: #4CAF50; /* Green by default */
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s; /* Smooth transition for color change */
+}
+
+/* Button styles when hovered */
+button:hover {
+    background-color: #45a049;
+}
+
+/* Button styles when pressed */
+button:active {
+    background-color: #3e8e41;
+}
+
+/* Styles for the "Turn Off" button */
+.off-button {
+    background-color: #f44336; /* Red color */
+}
+
+/* Button styles for "Turn Off" when hovered */
+.off-button:hover {
+    background-color: #d32f2f;
+}
+
+/* Button styles for "Turn Off" when pressed */
+.off-button:active {
+    background-color: #b71c1c;
+}
